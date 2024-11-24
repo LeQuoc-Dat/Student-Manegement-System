@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="SMS">
+  <DataContextMoniker Name="/SMSDataContext" />
+  <nestedChildShapes>
+    <classShape Id="b0cb0073-f4ab-4639-8839-83faa8dfe31e" absoluteBounds="5, 1.5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/SMSDataContext/Admin" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c47571c6-ed95-40c2-87bd-026fe039c349" absoluteBounds="5.015, 1.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="13a4ff5f-84e7-438b-81d0-ac5d9589a89c" absoluteBounds="2.25, 2, 2, 1.3862939453125">
+      <DataClassMoniker Name="/SMSDataContext/Chuongtrinhdaotao" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d4b2d7de-515a-4309-bfe7-2557794ac234" absoluteBounds="2.265, 2.46, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7798b064-6e89-48b8-be2a-3a965a05fb51" absoluteBounds="7.25, 2.5, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/SMSDataContext/GiangVien" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ba5c77c6-1c66-4fa1-9cff-03f4a2b2da82" absoluteBounds="7.265, 2.96, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4f471314-932e-4847-b76e-c488ec43641a" absoluteBounds="2.125, 4.125, 2, 1.3862939453125">
+      <DataClassMoniker Name="/SMSDataContext/LopHocPhan" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6189c7f4-1f1a-4bcb-b0a5-c9d96f5fdb27" absoluteBounds="2.14, 4.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.25 : 4.39024983723958); (4.125 : 4.39024983723958)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SMSDataContext/GiangVien/GiangVien_LopHocPhan" />
+      <nodes>
+        <classShapeMoniker Id="7798b064-6e89-48b8-be2a-3a965a05fb51" />
+        <classShapeMoniker Id="4f471314-932e-4847-b76e-c488ec43641a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.1875 : 3.3862939453125); (3.1875 : 4.125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SMSDataContext/Chuongtrinhdaotao/Chuongtrinhdaotao_LopHocPhan" />
+      <nodes>
+        <classShapeMoniker Id="13a4ff5f-84e7-438b-81d0-ac5d9589a89c" />
+        <classShapeMoniker Id="4f471314-932e-4847-b76e-c488ec43641a" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="d490d87b-921a-4e2c-b187-3a6dc063cb66" absoluteBounds="4.25, 5.75, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/SMSDataContext/SinhVien" />
+      <nestedChildShapes>
+        <elementListCompartment Id="404fca1f-a6f6-49cd-a857-2fb9fbe8ef6c" absoluteBounds="4.265, 6.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="436e4c11-a16e-46f9-8705-b2dedeb9c1fb" absoluteBounds="1, 5.875, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/SMSDataContext/TaiKhoan" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b578117f-bd8a-46e3-9746-e74f6a578f96" absoluteBounds="1.0150000000000001, 6.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
